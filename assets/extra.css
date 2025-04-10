@@ -1,0 +1,86 @@
+
+#header {
+    /*-------- Other Background Options --------
+    background-color: #87adbd;
+    background: linear-gradient(90deg, #0A69E7 0%, #00E5FF 100%);
+    ------------------------------------------*/
+
+    background: linear-gradient(-90deg, #0A69E7 0%, #00E5FF 100%);
+}
+
+
+@font-face {
+    font-display: swap; 
+    font-family: 'BubaDEMO-Outline';
+    font-style: normal;
+    font-weight: bold;
+    src: url('BubaDEMO-Outline.otf') format('opentype'); 
+}
+
+h1, h2 {
+    font-family: 'BubaDEMO-Outline';
+    white-space: pre-wrap;
+    transition-timing-function: ease;
+    transition-duration: 0.9s;
+    transition-delay: 0.389189s;
+    opacity: 1 !important;
+    transition-property: opacity;
+
+    /*----- Possible Text Color ------
+    color: darkblue;
+    --------------------------------*/
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 2.2rem;
+}
+
+h2 {
+    font-size: 33px;
+    line-height: 2.0rem;
+}
+
+h3 {
+    font-style: italic;
+}
+
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Caladea-BoldItalic';
+    font-style: normal;
+    font-weight: bold;
+    src: url('Caladea-BoldItalic.ttf') format('truetype'); 
+    font-size: 33px;
+    line-height: 0.8rem;
+}
+
+p, li {
+    font-family: 'Caladea-BoldItalic';
+    transition-timing-function: ease;
+    transition-duration: 0.9s;
+    transition-delay: 0.389189s;
+    opacity: 1 !important;
+    transition-property: opacity;
+
+    /*------- Line Text Pre-Wrap -------
+    white-space: pre-wrap;
+    -----------------------------------*/
+}
+
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Ampera';
+    font-style: normal;
+    font-weight: bold;
+    src: url('Ampera.ttf') format('truetype'); 
+}
+
+span.ampera {
+    font-family: 'Ampera';
+    font-size: 33px;
+    line-height: 2.8rem;
+}
+
